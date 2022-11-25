@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  border: 1px solid #ccc;
+  background-color: #efefef;
+}
+.title{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.integer-factors{
+    padding: 20px 0;
+}
+input{
+    height: 30px;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+input#integer-factors, input#roman-factors{
+    color: red;
+}
+label{
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+.result-roman label{
+    width: 221px;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/*button:hover{
+    background-color: tomato;
+} */
