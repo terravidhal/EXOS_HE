@@ -51,6 +51,32 @@ button{
     font-weight: bold;
     text-transform: capitalize;
 }
-/*button:hover{
-    background-color: tomato;
-} */
+
+
+/********* VUE TABLETTE ***************/
+
+@media screen and (max-width: 1010px){
+
+    input{
+        flex: none;
+        width: 25%;
+    }
+    label{
+        width: 30%;
+    }
+    .result-roman label{
+        width: 30%;
+    }
+ }
+ 
+ /********* VUE MOBILE ***************/
+ 
+ @media screen and (max-width:720px){
+    .integer-factors, .roman-factors{
+        flex-direction: column;
+    }
+    
+    .container{
+        top: 50%;
+    }
+ }
